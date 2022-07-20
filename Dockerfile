@@ -1,8 +1,8 @@
 # use Alpine for as small an image as possible
-FROM alpine:3.13.1
+FROM alpine:3.16.1
 
 # Define Hugo version
-ENV HUGO_VERSION="0.81.0" \
+ENV HUGO_VERSION="0.101.0" \
     HUGO_TYPE="_extended"
 
 RUN apk --no-cache add git libc6-compat libstdc++ && \
