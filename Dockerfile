@@ -1,5 +1,5 @@
 # use Alpine for as small an image as possible
-FROM alpine:3.16.1
+FROM alpine:3.16.2
 
 # Define Hugo version
 ENV HUGO_VERSION="0.101.0" \
